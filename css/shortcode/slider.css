@@ -1,0 +1,311 @@
+
+/*------    slider 1  ----*/
+
+.slider-bg-1 {
+    background: rgba(0, 0, 0, 0) url("../../img/slider/1.jpg") repeat center center / cover;
+}
+.slider-bg-2 {
+    background: rgba(0, 0, 0, 0) url("../../img/slider/2.jpg") repeat center center / cover;
+}
+.slider-text h1 {
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.slider-text > h2 {
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+.slider-text > h3 {
+    font-size: 30px;
+    text-transform: capitalize;
+    line-height: 40px;
+}
+.slider-text > a {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 25px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+a.button-hover {
+    position: relative;
+    transform: perspective(1px) translateZ(0px);
+    transition-duration: 0.5s;
+    transition-property: color;
+    vertical-align: middle;
+}
+a.button-hover::before {
+    background: #666 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50% 0;
+    transition-duration: 0.5s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+    z-index: -1;
+    color: #fff;
+}
+.slider-text > a:hover::before {
+    transform: scaleX(1);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.slider-text > a i {
+    padding-left: 5px;
+}
+/*------    slider 2  ----*/
+
+h2.headline-text {
+    color: #222;
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+h3.heading-sub-title {
+    color: #333;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.cd-headline.slide span {
+    padding: 0;
+}
+/*------    slider 3  ----*/
+
+.info-inner-3 h1 {
+    color: #f9f9f9;
+    font-size: 60px;
+    font-weight: 700;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.18);
+    text-transform: uppercase;
+}
+.info-inner-3 h2 {
+    color: #f9f9f9;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.18);
+    text-transform: capitalize;
+}
+/* -----------------------------------
+slider 4
+
+--------------------------------------*/
+
+.slider-title-4 {
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 999;
+}
+.slider-title-4 > span {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.slider-title-4 h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.single-slider-4 {
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.owl-theme .owl-controls .owl-nav div {
+    background: #fff none repeat scroll 0 0;
+    font-size: 25px;
+    height: 50px;
+    left: 10px;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 100%;
+}
+.owl-theme .owl-controls .owl-nav div.owl-next {
+    left: auto;
+    right: 10px;
+}
+.owl-theme:hover .owl-controls .owl-nav div {
+    opacity: 1;
+    visibility: visible
+}
+.owl-theme .owl-controls .owl-nav div:hover {
+    background: #333;
+    color: #fff;
+}
+.single-slider-4 {
+    position: relative;
+}
+.single-slider-4::before {
+    background-color: #000;
+    bottom: 0;
+    content: "";
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+/* -----------------------------------
+slider 6
+
+--------------------------------------*/
+
+.slider-bg-6 {
+    background: rgba(0, 0, 0, 0) url("../../img/slider/6.jpg") repeat center center / cover;
+    height: 100vh;
+}
+.header-6 {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background: rgba(255, 255, 255, 0.7) none repeat scroll 0 0;
+}
+.slider-6 {
+    position: relative;
+}
+.slider-6 {
+    background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+    margin: auto;
+    outline: 1px solid #fff;
+    outline-offset: 10px;
+    padding: 65px 0;
+    text-align: center;
+    width: 500px;
+}
+.slider-6 {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.slider-6 h1 {
+    display: block;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+.slider-6 p {
+    color: #333;
+    line-height: normal;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+/* -----------------------------------
+slider 9
+
+--------------------------------------*/
+
+.slider-9 {
+    position: relative;
+}
+.slider-bg-9 {
+    background: rgba(0, 0, 0, 0) url("../../img/slider/9.jpg") repeat fixed center center / cover;
+    height: 100vh;
+}
+.slider-text-9 {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 99;
+}
+.slider-9 {
+    position: relative;
+}
+.slider-9::before {
+    background-color: #000;
+    bottom: 0;
+    content: "";
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+.slider-text-9 h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.slider-text-9 h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 12px 0 2px;
+    text-transform: capitalize;
+}
+.slider-text-9 > a {
+    background-color: #fff;
+    color: #333;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 23px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.slider-text-9 > a:hover {
+    color: #fff;
+}
+.slider-text-9 > a:hover::before {
+    transform: scaleX(1);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.slider-text > p {
+  font-size: 15px;
+  margin: 0 auto;
+  width: 60%;
+}
+.slider-area-7 {
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
